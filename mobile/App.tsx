@@ -8,8 +8,8 @@ interface ButtonProps {
 
 function Button(props: ButtonProps) {
   return (
-      <TouchableOpacity style={styles.teste}>
-        <Text style={styles.ailton}>
+      <TouchableOpacity >
+        <Text>
           {props.title}
         </Text>
       </TouchableOpacity>
@@ -39,16 +39,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
-  teste: {
-    backgroundColor: '#000',
-    borderWidth: 20,
-    borderRadius: 1,
-    margin: 5
-  },
-
-  ailton: {
-    color: '#fff'
-  }
 });
 
 
